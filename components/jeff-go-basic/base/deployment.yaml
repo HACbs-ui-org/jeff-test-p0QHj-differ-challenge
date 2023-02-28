@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: jeff-go-basic
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/uidev-user-workload:p0QHj-jeff-go-basic
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:c9fb36b86d98c8c640bfaf801a6b4d8530cc94cfa402a7e47ef3aeb63a25d4b7
         name: my-go
         ports:
         - containerPort: 8081
