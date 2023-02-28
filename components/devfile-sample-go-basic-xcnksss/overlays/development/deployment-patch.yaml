@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-go-basic-xcnksss
+  namespace: jephilli-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:be5fa8cf204d43269d8000b1e74e8cb716669da1c69a99c2323743c57ef0bbae
+        name: my-go
+        resources: {}
+status: {}
