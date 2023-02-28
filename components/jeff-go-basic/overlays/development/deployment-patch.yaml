@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jeff-go-basic
+  namespace: jephilli-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:c9fb36b86d98c8c640bfaf801a6b4d8530cc94cfa402a7e47ef3aeb63a25d4b7
+        name: my-go
+        resources: {}
+status: {}
