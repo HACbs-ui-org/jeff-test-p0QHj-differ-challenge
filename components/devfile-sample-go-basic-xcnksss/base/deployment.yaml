@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-go-basic-xcnksss
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/uidev-user-workload:p0QHj-devfile-sample-go-basic-xcnksss
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:be5fa8cf204d43269d8000b1e74e8cb716669da1c69a99c2323743c57ef0bbae
         name: my-go
         ports:
         - containerPort: 8081
